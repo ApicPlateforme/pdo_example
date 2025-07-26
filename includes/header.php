@@ -4,6 +4,9 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mini site PHP d'exemple sans JavaScript, avec PDO et bonnes pratiques.">
+    <link rel="icon" href="<?= BASE_URL ?>assets/img/livreor.png" type="image/png">
     <title><?= $title ?? "Livre d'or" ?></title>
 
     <!-- CSS commun à toutes les pages -->
