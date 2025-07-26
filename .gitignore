@@ -1,0 +1,21 @@
+# Ne pas versionner le fichier de config privé
+.env.local
+/sql
+
+# Fichiers temporaires / caches
+*.log
+*.tmp
+
+# Éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Dossiers cachés potentiels (macOS/Linux)
+._*
+
