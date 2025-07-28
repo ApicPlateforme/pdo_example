@@ -1,6 +1,6 @@
 # Ne pas versionner le fichier de config privé
 .env.local
-/sql
+# /sql
 
 # Fichiers temporaires / caches
 *.log
