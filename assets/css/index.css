@@ -1,0 +1,18 @@
+.message {
+    background-color: white;
+    border-left: 4px solid #efbf04;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.message p {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted black;
+}
+
+small {
+    font-style: italic;
+}

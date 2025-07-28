@@ -10,18 +10,18 @@
     <title><?= $title ?? "Livre d'or" ?></title>
 
     <!-- CSS commun à toutes les pages -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/common.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/common.css">
 
     <!-- CSS spécifique à la page, si défini -->
     <?php if (!empty($css)): ?>
-        <link rel="stylesheet" href="./assets/css/<?= $css ?>">
+        <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/<?= $css ?>">
     <?php endif; ?>
 </head>
 <body>
 
 <header>
     <nav>
-            <a href="<?= BASE_URL ?>index.php">Accueil</a> | 
-            <a href="<?= BASE_URL ?>pages/commentary.php">Ajouter un commentaire</a>
+            <a href="<?= BASE_URL ?>index.php" class="<?= $active === 1 ? "active" : "" ?>">Accueil</a>
+            <a href="<?= BASE_URL ?>pages/commentary.php" class="<?= $active === 2 ? "active" : "" ?>">Ajouter un commentaire</a>
     </nav>
 </header>

@@ -1,0 +1,51 @@
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    min-height: 200px;
+    max-height: 40vh;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.submit-btn {
+   display: flex;
+   justify-content: center;
+}
+
+form button {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #efbf04;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+form button:hover {
+    background-color: #000000;
+    color: #efbf04;
+}

@@ -1,43 +1,82 @@
-body {
-    font-family: sans-serif;
-    background: #f0f0f0;
-    padding: 2rem;
+/* Reset rapide */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header, footer {
-    background: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    margin-bottom: 2rem;
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header & nav */
+header {
+    background-color: #efbf04;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    min-height: 3vh;
 }
 
 nav a {
-    color: white;
-    margin: 0 0.5rem;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: all 0.5s ease-out;
 }
 
-main {
-    max-width: 700px;
-    margin: auto;
-    background: white;
-    padding: 2rem;
-    border-radius: 5px;
+nav a::before {
+    content: "♦  ";
 }
 
-.message {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #ccc;
+nav a:hover {
+    background-color: #000000;
+    color: #efbf04;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.active {
+    border-bottom: 2px solid black;
 }
 
-.error {
-    color: red;
+/* Footer */
+footer {
+    background-color: #efbf04;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    min-height: 5vh;
+}
+
+
+/* Global css */
+.main-content {
+    padding: 2rem 1rem;
+    min-height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color:#efbf04;
+    text-shadow:
+    #000000 0 -1px 0,
+    #929191 1px 1px 0,
+    #605f5f 2px 2px 0,
+    #474646 3px 3px 0,
+    #2d2c2c 4px 4px 0,
+    #000000 5px 5px 0,
+    #333 5px 5px 10px;
 }
